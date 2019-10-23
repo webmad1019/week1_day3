@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplos selectores avanzados</title>
+    <style>
+        /*
+        .circle {
+            border: 2px solid black;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .one {
+            background: red;
+        }
+
+        .two {
+            background: green;
+        }
+
+        .three {
+            background: black;
+        }
+
+        .four {
+            background: blue;
+        }
+        */
+
+        div[class^="circle"] {
+            border: 2px solid black;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .circle-one {
+            background: red;
+        }
+
+        .circle-two {
+            background: green;
+        }
+
+        .circle-three {
+            background: black;
+        }
+
+        .circle-four {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+    <div class="circle four"></div>
+    -->
+
+    <div class="circle-one"></div>
+    <div class="circle-two"></div>
+    <div class="circle-three"></div>
+    <div class="circle-four"></div>
+</body>
+
+</html>

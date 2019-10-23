@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplos selectores avanzados</title>
+    <style>
+        section p:nth-child(1),
+        section p:nth-child(2) {
+            color: red;
+        }
+
+        section p:nth-child(odd) {
+            /* también acepta even */
+            text-transform: uppercase;
+        }
+
+        section p:nth-child(3n+2) {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+        <p>Dabadú Lorem ipusum</p>
+    </section>
+
+</body>
+
+</html>

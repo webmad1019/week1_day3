@@ -1,0 +1,51 @@
+* {										/* -- selector universal -- */
+	padding: 0;
+}
+
+h2 { 									/* -- selector de etiqueta -- */
+	color: red; 
+}  
+
+.grande {								/* -- selector de clase -- */
+	color: red;
+}
+
+#principal {							/* -- selector de id -- */
+	color: red;					
+}
+
+h2, h3 {								/* -- selector múltiple -- */
+	color: red;
+}
+
+p.grande {								/* -- selector combinado -- */
+	color: red;
+}
+
+article p {								/* -- selector descendiente -- */
+	color: red;
+}
+
+article > p {							/* -- selector descendiente directo -- */
+	color: red;
+}
+
+h3 + p {								/* -- selector adyacente -- */
+	color: red;
+}
+
+a[title="Acceder"] {					/* -- selectores de atributo -- */
+	color: red;
+}
+
+p[class*="grand"] {	
+	color: red;
+}
+
+a[href^="http://www.google.es/"] {		
+	color: red;
+}
+
+.caja:nth-child(numero) {				/* -- selector de ordenación (la .caja número x) --*/
+	color: red;
+}

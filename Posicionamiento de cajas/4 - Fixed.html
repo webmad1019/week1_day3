@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Posicionamientos</title>
+
+	<style type="text/css">
+		article {
+			border: 4px solid red;
+		}
+
+		.caja {
+			width: calc(33.33% - 31px);
+			height: 150px;
+			line-height: 150px;
+			font-size: 1.1em;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: lighter;
+			margin: 10px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			border: 4px solid black;
+			border-radius: 20px;
+			display: inline-block;
+		}
+
+		.caja.grande {
+			display: block;
+			width: auto;
+		}
+
+		#fijo {
+			padding: 10px;
+			border: 2px solid black;
+			color: black;
+			text-decoration: none;
+			line-height: 15px;
+			background: white;
+			position: fixed;
+			top: 5px;
+			display: block;
+			width: 100px;
+			left: calc(50% - 50px);
+			/*transform: translate(-50%)*/
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<a href="#" id="fijo"> ESTOY FIJO </a>
+
+	<section>
+
+		<article>
+
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja grande">Caja Grande</div>
+
+		</article>
+
+		<article>
+
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja grande">Caja Grande</div>
+
+		</article>
+
+		<article>
+
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja grande">Caja Grande</div>
+
+		</article>
+
+		<article>
+
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja grande">Caja Grande</div>
+
+		</article>
+
+		<article>
+
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja grande">Caja Grande</div>
+
+		</article>
+
+
+	</section>
+
+</body>
+
+</html>
